@@ -1,11 +1,20 @@
 <template>
-  
+  <main>
+    <div class="container-fluid">
+      <Jumbo />
+    </div>
+  </main>
 </template>
 
 <script>
-  export default {
-    name:'Main',  
 
+import Jumbo from './partials/Jumbo.vue';
+
+  export default {
+    name:'Main', 
+    components:{
+      Jumbo,
+    },
   }
 </script>
 

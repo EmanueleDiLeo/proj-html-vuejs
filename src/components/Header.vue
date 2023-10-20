@@ -88,6 +88,9 @@
   header{
     border-bottom: 1px solid #eaeaea;
     box-shadow: 0px 1px 10px #eaeaea;
+    position: fixed;
+    top: 0;
+    z-index: 999;
     .logo{
       img{
         height: 40px;
