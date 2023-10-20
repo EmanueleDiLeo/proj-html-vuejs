@@ -3,6 +3,8 @@
     <div class="container-fluid">
       <Jumbo />
       <ContainerCardsThree type="PELICULA STUDIO" title="THIS IS WHAT WE DO"/>
+      <AboutUs />
+
     </div>
   </main>
 </template>
@@ -11,12 +13,14 @@
 
 import Jumbo from './partials/Jumbo.vue';
 import ContainerCardsThree from './partials/ContainerCardsThree.vue';
+import AboutUs from './partials/AboutUs.vue';
 
   export default {
     name:'Main', 
     components:{
       Jumbo,
       ContainerCardsThree,
+      AboutUs,
     },
   }
 </script>

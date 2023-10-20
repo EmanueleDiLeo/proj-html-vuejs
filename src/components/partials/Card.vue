@@ -42,5 +42,8 @@ export default {
     h4{
       margin-bottom: 20px ;
     }
+    p{
+      color:$color-p;
+    }
   }
 </style>

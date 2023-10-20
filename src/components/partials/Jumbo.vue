@@ -13,9 +13,7 @@
             <div class="jumbo-text ">
               <h6>CINEMATO STUDIO</h6>
               <h1>ACTION AND INSPIRE PEOPLE</h1>
-              <div class=" my-btn ">
-                <a href="#">READ MORE</a>
-              </div>
+              <ReadMoreBtn />
             </div>
           </div>
         </div>
@@ -26,6 +24,8 @@
 </template>
 
 <script>
+import ReadMoreBtn from "./ReadMoreBtn.vue";
+
 import { Swiper, SwiperSlide } from 'swiper/vue';
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -43,6 +43,7 @@ export default {
   components: {
     Swiper,
     SwiperSlide,
+    ReadMoreBtn,
   },
   setup() {
     return {
@@ -79,15 +80,6 @@ export default {
     width: 40%;
     h1{
       font-size: 3rem;
-    }
-    .my-btn{
-      padding-top:20px ;
-      a{
-        font-size: 0.8rem;
-        color:$color-dark;
-        padding: 10px 20px;
-        background-color: $color-white;
-      }
     }
   }
 }

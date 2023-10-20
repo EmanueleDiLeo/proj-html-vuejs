@@ -9,7 +9,7 @@
 
         <!-- START LOGO -->
         <div class="logo">
-          <img src="/public/logo.svg" alt="logo">
+          <img src="/logo.svg" alt="logo">
         </div>
         <!-- END LOGO -->
 
@@ -40,7 +40,7 @@
         <!-- START SOCIAL-MENU -->
         <div class="social-menu d-flex mt-3">
           <div class="search">
-            <img src="/public/Search-1.svg" alt="search">
+            <img src="/Search-1.svg" alt="search">
           </div>
           <ul class="d-flex">
             <li v-for="(icon,index) in social" :key="index">
