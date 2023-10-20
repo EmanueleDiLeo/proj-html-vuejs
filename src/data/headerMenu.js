@@ -68,22 +68,22 @@ const social = [
   {
     text:'facebook',
     href:'#',
-    img: "/public/facebook.svg",
+    img: "/facebook.svg",
   },
   {
     text:'twitter',
     href:'#',
-    img: "/public/twitter.svg",
+    img: "/twitter.svg",
   },
   {
     text:'youtube',
     href:'#',
-    img: "/public/youtube.svg",
+    img: "/youtube.svg",
   },
   {
     text:'instagram',
     href:'#',
-    img: "/public/instagram.svg",
+    img: "/instagram.svg",
   },
 ];
 

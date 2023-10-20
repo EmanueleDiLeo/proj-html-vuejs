@@ -16,12 +16,22 @@ body{
 .p-30{
   padding: 30px;
 }
+.mb-100{
+  padding-bottom: 100px;
+}
 
 h1,
 h2,
-h3,
-h4,
-h5,
 h6{
   color: $color-white;
+}
+
+h3,
+h4,
+h5{
+  color: $color-dark;
+}
+
+p{
+  color:$color-p;
 }

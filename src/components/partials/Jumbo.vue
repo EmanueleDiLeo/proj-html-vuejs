@@ -1,5 +1,5 @@
 <template>
-  <div class="jumbo">
+  <div class="jumbo mb-100">
     <swiper 
       :navigation="true" 
       :modules="modules"
@@ -56,11 +56,15 @@ export default {
 
 <style lang="scss">
 @use '../../scss/partials/variables' as *;
+@use '../../scss/main' as *;
+.jumbo{
   .bg-img{
-    min-height: 80vh;
+    height: 80vh;
     width: 100%;
     background-size: cover;
     background-position: center;
+
+    
   }
   .swiper-button-prev::after,
   .swiper-button-next::after
@@ -86,4 +90,5 @@ export default {
       }
     }
   }
+}
 </style>

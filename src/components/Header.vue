@@ -21,8 +21,8 @@
               class="d-flex active">
               <a :href="item.href">{{ item.text }}</a>
               <div v-if="item.isArrow === true">
-                <img class="arrow arrow-bot " src="/public/arrow-down.svg" alt="arrow-down">
-                <img class="arrow arrow-top mt-1" src="/public/arrow-top.svg" alt="arrow-top">
+                <img class="arrow arrow-bot " src="/arrow-down.svg" alt="arrow-down">
+                <img class="arrow arrow-top mt-1" src="/arrow-top.svg" alt="arrow-top">
                 <div class="my-drop ">
                   <ul>
                     <li v-for="(down,index) in item.dropDown"
@@ -92,6 +92,7 @@
     top: 0;
     z-index: 999;
     width: 100%;
+    background-color: $color-white;
     .logo{
       img{
         height: 40px;
