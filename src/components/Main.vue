@@ -19,5 +19,8 @@ import Jumbo from './partials/Jumbo.vue';
 </script>
 
 <style lang="scss">
+main{
+  margin-top: 97px;
 
+}
 </style>

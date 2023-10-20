@@ -91,6 +91,7 @@
     position: fixed;
     top: 0;
     z-index: 999;
+    width: 100%;
     .logo{
       img{
         height: 40px;

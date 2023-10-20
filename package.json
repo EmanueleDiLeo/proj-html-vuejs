@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@fontsource/josefin-sans": "^5.0.15",
+    "swiper": "^10.3.1",
     "vue": "^3.3.4"
   },
   "devDependencies": {
