@@ -2,8 +2,9 @@
   <main>
     <div class="container-fluid">
       <Jumbo />
-      <ContainerCardsThree type="PELICULA STUDIO" title="THIS IS WHAT WE DO"/>
+      <ContainerCardsThree text="PELICULA STUDIO" title="THIS IS WHAT WE DO" type="pelicula"/>
       <AboutUs />
+      <ContainerCardsThree text="YOUR WATCHLIST" title="BEST HITS MOVIES" type="watchlist"/>
 
     </div>
   </main>
