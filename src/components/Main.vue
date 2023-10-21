@@ -8,6 +8,7 @@
       <Data />
       <ContainerCardsFour text="THE PERICUROS" title="MEET THE TEAM" type="team"/>
       <Carosel />
+      <ContainerCardsThree text="LATEST NEWS" title="ARTICLES UPDATED DAILY " type="news"/>
 
 
     </div>

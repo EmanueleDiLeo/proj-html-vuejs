@@ -5,7 +5,8 @@
       <img v-if="item.isGallery" class="gallery" :src="item.img" alt="">
       <img v-if="item.isPeople" class="team" :src="item.img" alt="">
     </div>
-    <h4>{{ item.title }}</h4>
+    <p v-if="item.date !== null">{{ item.date }}</p>
+    <h5>{{ item.title }}</h5>
     <p>{{ item.text }}</p>
   </div>
 </template>
