@@ -5,6 +5,7 @@
       <ContainerCardsThree text="PELICULA STUDIO" title="THIS IS WHAT WE DO" type="pelicula"/>
       <AboutUs />
       <ContainerCardsThree text="YOUR WATCHLIST" title="BEST HITS MOVIES" type="watchlist"/>
+      <Data />
 
     </div>
   </main>
@@ -15,6 +16,7 @@
 import Jumbo from './partials/Jumbo.vue';
 import ContainerCardsThree from './partials/ContainerCardsThree.vue';
 import AboutUs from './partials/AboutUs.vue';
+import Data from './partials/Data.vue';
 
   export default {
     name:'Main', 
@@ -22,6 +24,7 @@ import AboutUs from './partials/AboutUs.vue';
       Jumbo,
       ContainerCardsThree,
       AboutUs,
+      Data,
     },
   }
 </script>

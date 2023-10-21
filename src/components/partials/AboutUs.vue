@@ -1,5 +1,5 @@
 <template>
-  <div class=" container-fluid p-10 mb-100">
+  <div class="mb-100">
     <div class="img-mic">
       <div class="container">
         <div class="row">
