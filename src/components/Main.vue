@@ -7,6 +7,7 @@
       <ContainerCardsThree text="YOUR WATCHLIST" title="BEST HITS MOVIES" type="watchlist"/>
       <Data />
       <ContainerCardsFour text="THE PERICUROS" title="MEET THE TEAM" type="team"/>
+      <Carosel />
 
 
     </div>
@@ -20,6 +21,8 @@ import ContainerCardsThree from './partials/ContainerCardsThree.vue';
 import AboutUs from './partials/AboutUs.vue';
 import Data from './partials/Data.vue';
 import ContainerCardsFour from './partials/ContainerCardsFour.vue';
+import Carosel from './partials/Carosel.vue';
+
 
   export default {
     name:'Main', 
@@ -29,6 +32,7 @@ import ContainerCardsFour from './partials/ContainerCardsFour.vue';
       AboutUs,
       Data,
       ContainerCardsFour,
+      Carosel,
     },
   }
 </script>

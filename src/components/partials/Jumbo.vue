@@ -1,7 +1,9 @@
 <template>
   <div class="jumbo mb-100">
     <swiper 
-      :navigation="true" 
+      :navigation="true"
+      :autoplay="{delay: 2500,disableOnInteraction: false,}"
+      :keyboard="{enabled: true,}"
       :modules="modules"
       :loop="true" 
       class="mySwiper">
@@ -29,8 +31,9 @@ import ReadMoreBtn from "./ReadMoreBtn.vue";
 import { Swiper, SwiperSlide } from 'swiper/vue';
 import 'swiper/css';
 import 'swiper/css/navigation';
+
   // import required modules
-import { Navigation } from 'swiper/modules';
+import { Navigation, Keyboard, Autoplay } from 'swiper/modules';
 
 import jumboImg from "../../data/jumboImg.js";
 export default {
@@ -47,7 +50,7 @@ export default {
   },
   setup() {
     return {
-      modules: [Navigation],
+      modules: [Navigation, Keyboard, Autoplay],
     };
   },
     
