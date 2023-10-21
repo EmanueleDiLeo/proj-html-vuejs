@@ -6,6 +6,8 @@
       <AboutUs />
       <ContainerCardsThree text="YOUR WATCHLIST" title="BEST HITS MOVIES" type="watchlist"/>
       <Data />
+      <ContainerCardsFour text="THE PERICUROS" title="MEET THE TEAM" type="team"/>
+
 
     </div>
   </main>
@@ -17,6 +19,7 @@ import Jumbo from './partials/Jumbo.vue';
 import ContainerCardsThree from './partials/ContainerCardsThree.vue';
 import AboutUs from './partials/AboutUs.vue';
 import Data from './partials/Data.vue';
+import ContainerCardsFour from './partials/ContainerCardsFour.vue';
 
   export default {
     name:'Main', 
@@ -25,6 +28,7 @@ import Data from './partials/Data.vue';
       ContainerCardsThree,
       AboutUs,
       Data,
+      ContainerCardsFour,
     },
   }
 </script>

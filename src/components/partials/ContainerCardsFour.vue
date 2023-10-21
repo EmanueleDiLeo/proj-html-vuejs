@@ -6,7 +6,7 @@
       <div 
         v-for="(item,index) in store[type]"
         :key="index"
-        class="col-4">
+        class="col-3">
         <Card :item="item"/>
 
       </div>
@@ -19,7 +19,7 @@
 import {store} from '../../data/store';
 import Card from './Card.vue';
 export default {
-  name:'ContainerCardsThree',
+  name:'ContainerCardsFour',
   props:{
     text:String,
     title:String,
