@@ -9,6 +9,7 @@
       <ContainerCardsFour text="THE PERICUROS" title="MEET THE TEAM" type="team"/>
       <Carosel />
       <ContainerCardsThree text="LATEST NEWS" title="ARTICLES UPDATED DAILY " type="news"/>
+      <Partner />
 
 
     </div>
@@ -23,6 +24,7 @@ import AboutUs from './partials/AboutUs.vue';
 import Data from './partials/Data.vue';
 import ContainerCardsFour from './partials/ContainerCardsFour.vue';
 import Carosel from './partials/Carosel.vue';
+import Partner from './partials/Partner.vue';
 
 
   export default {
@@ -34,6 +36,7 @@ import Carosel from './partials/Carosel.vue';
       Data,
       ContainerCardsFour,
       Carosel,
+      Partner,
     },
   }
 </script>

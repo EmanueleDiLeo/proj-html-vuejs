@@ -38,7 +38,6 @@ export default {
   height: 310px;
   background-size: cover;
   background-position: 0px 450px;
-
 }
 
 </style>
