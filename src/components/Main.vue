@@ -10,6 +10,7 @@
       <Carosel />
       <ContainerCardsThree text="LATEST NEWS" title="ARTICLES UPDATED DAILY " type="news"/>
       <Partner />
+      <Collaborate />
 
 
     </div>
@@ -25,6 +26,7 @@ import Data from './partials/Data.vue';
 import ContainerCardsFour from './partials/ContainerCardsFour.vue';
 import Carosel from './partials/Carosel.vue';
 import Partner from './partials/Partner.vue';
+import Collaborate from './partials/Collaborate.vue';
 
 
   export default {
@@ -37,6 +39,7 @@ import Partner from './partials/Partner.vue';
       ContainerCardsFour,
       Carosel,
       Partner,
+      Collaborate,
     },
   }
 </script>
