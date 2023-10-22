@@ -7,7 +7,7 @@
           <h3>WANT TO WORK WITH US? LEAVE US A MESSAGE!</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio fugit similique in quos repellat dolorem ex adipisci commodi reprehenderit libero ratione ipsum magnam aliquid officiis, veritatis minima rerum facere iure autem voluptates maxime reiciendis velit. Assumenda non molestiae expedita, quod laudantium voluptatibus asperiores delectus sed dolorem odit saepe, temporibus ratione eaque obcaecati, nostrum repellendus impedit eum. At provident temporibus repellendus earum, culpa asperiores dignissimos suscipit, ut cumque in veritatis molestias.</p>
         </div>
-        <div class="col-6">
+        <div class="col-6 ">
           <Form />
         </div>
       </div>
