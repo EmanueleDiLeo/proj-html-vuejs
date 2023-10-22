@@ -2,7 +2,8 @@ import {reactive} from "vue";
 
 export const store = reactive({
 
-   pelicula : [
+  //START CARDS MAIN 
+  pelicula : [
     {
       img:'/macchina-da-ripresa.svg',
       title:'ARRAY OF EQUIPMENT',
@@ -184,4 +185,87 @@ export const store = reactive({
       isPeople:false,
     },
   ],
+  // END CARDS MAIN
+
+  // START LINK FOOTER
+
+  contact : [
+    {
+      href:'#',
+      img:'/footer-location-dot-solid.svg',
+      text:'2/45 Tower Street, New York USA',
+    },
+    {
+      href:'#',
+      img:'/footer-phone-solid.svg',
+      text:'Call Us On 0800 840 1010',
+    },
+    {
+      href:'#',
+      img:'/footer-envelope-soli.svg',
+      text:'Demo@Example.Com',
+    },
+  
+  ],
+  
+   info : [
+    {
+      href:'#',
+      img:null,
+      text:'Product Support',
+    },
+    {
+      href:'#',
+      img:null,
+      text:'Checkout',
+    },
+    {
+      href:'#',
+      img:null,
+      text:'Report Abuse',
+    },
+    {
+      href:'#',
+      img:null,
+      text:'Redeem Voucher',
+    },
+    {
+      href:'#',
+      img:null,
+      text:'Order Status',
+    },
+  
+  
+  ],
+  
+   useful : [
+    {
+      href:'#',
+      img:null,
+      text:'Policiees & Rules',
+    },
+    {
+      href:'#',
+      img:null,
+      text:'Privacy Policy',
+    },
+    {
+      href:'#',
+      img:null,
+      text:'License Policy',
+    },
+    {
+      href:'#',
+      img:null,
+      text:'My Account',
+    },
+    {
+      href:'#',
+      img:null,
+      text:'Locality',
+    },
+  
+  ],
+  // END LINK FOOTER
+  
 })
