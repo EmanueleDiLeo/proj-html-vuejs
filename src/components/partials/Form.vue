@@ -57,7 +57,7 @@ export default {
   .my-btn{
     width: 100%;
     background-color: $color-dark;
-    color:white;
+    color:$color-white;
     border-radius: 0;
   }
 }
