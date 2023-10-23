@@ -45,7 +45,9 @@ import Collaborate from './partials/Collaborate.vue';
 </script>
 
 <style lang="scss">
-  @use '../scss/main' as *;
+@use '../scss/partials/variables' as *;
+@use '../scss/partials/typography' as *;
+@use '../scss/partials/general' as *;
 main{
   margin-top: 97px;
 

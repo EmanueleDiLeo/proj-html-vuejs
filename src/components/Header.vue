@@ -2,7 +2,7 @@
   <header>
 
     <!-- START CONTAINER -->
-    <div class="container-fluid p-20">
+    <div class="container-fluid px-20">
 
       <!-- START FLEX-HEADER-->
       <div class="d-flex justify-content-between align-items-center ">
@@ -43,7 +43,7 @@
             <img src="/Search-1.svg" alt="search">
           </div>
           <ul class="d-flex">
-            <li v-for="(icon,index) in social" :key="index">
+            <li v-for="(icon,index) in social" :key="index" class="py-20">
               <a :href="icon.href">
                 <img :src="icon.img" :alt="icon.text">
               </a>
@@ -90,18 +90,24 @@
     box-shadow: 0px 1px 10px #eaeaea;
     position: fixed;
     top: 0;
+    padding-top: 15px;
     z-index: 999;
     width: 100%;
     background-color: $color-white;
     .logo{
+      margin-bottom:8px;
       img{
         height: 40px;
         width: 190px;
       }
     }
+    ul{
+      margin: 0;
+      padding: 0;
+    }
     .active{
       position: relative;
-      padding: 0 20px;
+      padding: 10px 20px 32px 20px;
       
       a{
         color:$color-p;
@@ -127,7 +133,7 @@
         position: absolute;
         width: 300px;
         left:0;
-        top:60px;
+        top:65px;
         background-color: $color-dark;
         ul{
           padding-left: 0;
@@ -140,10 +146,10 @@
             }
           }
         }
-        
       }
     }
     .social-menu{
+      padding-bottom: 20px;
       .search{
         border-right: 2px solid $color-p;
         height: 30px;
